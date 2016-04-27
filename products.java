@@ -1,9 +1,9 @@
 public class Company() {
-	private ArrayList<Product> products;
+	private LinkedList<Product> products;
 	private String name;
 
 	Company(name) {
-		this.products = new ArrayList<Product>;
+		this.products = new LinkedList<Product>;
 		setName(name);
 	}
 
