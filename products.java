@@ -1,9 +1,9 @@
 public class Company() {
-	private LinkedList<Product> products;
+	private TreeSet<Product> products;
 	private String name;
 
 	Company(name) {
-		this.products = new LinkedList<Product>;
+		this.products = new TreeSet<Product>;
 		setName(name);
 	}
 
