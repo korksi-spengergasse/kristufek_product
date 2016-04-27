@@ -1,8 +1,14 @@
 public class Product() {
 	private String name;
-	
-	public Product(name) {
+	private float price;
+
+	public Product(name, price) {
 		setName(name);
+		setPrice(price);
+	}
+
+	public Product(name) {
+		Product(name, 10);
 	}
 
 
@@ -12,4 +18,7 @@ public class Product() {
 
 	public String getName() { return this.name; }
 	public void setName(name) { this.name = name; }
+
+	public float getPrice() { return this.price; }
+	public void setPrice(price) { this.price = price; }
 }

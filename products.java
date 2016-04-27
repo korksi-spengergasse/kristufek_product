@@ -1,8 +1,8 @@
 public class Products() {
-	private ArrayList<Product> products;
+	private LinkedList<Product> products;
 
 	Products() {
-		this.products = new ArrayList<Product>;
+		this.products = new LinkedList<Product>;
 	}
 }
 
